@@ -5,6 +5,8 @@ set :application, "doc"
 set :repo_url, "git@github.com:leontraykov/doc.git"
 set :branch, :main
 
+append :linked_files, 'config/master.key', 'config/credentials.yml.enc'
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
