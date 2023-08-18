@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 server '54.81.170.245', user: 'deploy', roles: %w{app db web}
 
-
+config.public_file_server.enabled = true
 
 # role-based syntax
 # ==================
