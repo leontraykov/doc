@@ -8,14 +8,6 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 server '54.81.170.245', user: 'deploy', roles: %w{app db web}
 
-Rails.application.configure do
-  # ... другие настройки ...
-
-  config.public_file_server.enabled = true
-
-  # ... ещё настройки ...
-end
-
 # role-based syntax
 # ==================
 
